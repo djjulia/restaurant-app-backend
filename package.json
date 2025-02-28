@@ -1,4 +1,11 @@
 {
+  "name": "restaurant-app-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
@@ -7,16 +14,3 @@
     "mongoose": "^8.10.1"
   }
 }
-
-{
-  "name": "restaurant-app-backend",
-  "version": "1.0.0",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    ...
-  },
-  ...
-}
-
